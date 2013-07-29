@@ -48,10 +48,9 @@ function proml {
     TITLEBAR=""
     ;;
   esac
-  PS1="${TITLEBAR}\
-  $BLUE$(date +%H:%M) $RED\u@$LIGHT_RED\h:$COLORLESS\W$WHITE\$(parse_git_branch) $YELLOW$ $COLORLESS"
-  PS2='> '
-  PS4='+ '
+  PS1="\n$RED\u@\h: $LIGHT_GREEN[\W]$WHITE\$(parse_git_branch)\n$YELLOW-> $COLORLESS"
+  PS2="$YELLOW > $COLORLESS"
+  PS4=PS2
 }
 
 proml

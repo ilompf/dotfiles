@@ -13,7 +13,6 @@ alias cd..='cd ..'               # my common mistake from DOS era
 alias ..="cd .."                 # go to parent dir
 alias ...="cd ../.."             # go to grandparent dir
 alias -- -="cd -"                # go to previous dir
-alias 'ss'='cmatrix -sabo -u 2'  # start terminal screen saver :)
 alias vim='vim -X'               # don't try to contact xserver (which can hang on network issues)
 alias top='htop'                 # preffered
 alias head='head -n $((${LINES:-12}-2))'      # as many as possible without scrolling

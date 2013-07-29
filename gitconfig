@@ -9,3 +9,5 @@
     ci = commit
     br = branch
     fe = fetch
+    unstage = 'reset HEAD --'
+    last = 'log -1 HEAD'

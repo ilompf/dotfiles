@@ -1,6 +1,8 @@
 [user]
     name = Bartosz Burclaf
     email = burclaf@gmail.com
+[color]
+    ui = true
 [alias]
     st = status
     co = checkout

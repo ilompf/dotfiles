@@ -1,0 +1,9 @@
+[user]
+    name = Bartosz Burclaf
+    email = burclaf@gmail.com
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    fe = fetch

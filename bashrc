@@ -51,5 +51,14 @@ function proml {
   PS2="$YELLOW > $COLORLESS"
   PS4=PS2
 }
-
 proml
+
+# below requires npm -g install jump
+function jump {
+  local si="$IFS";
+  IFS=$'\n';
+  local newDir=$(JUMPPROFILE=1 command jump "$@");
+  cd "$newDir";
+  IFS="$si";
+}
+alias j="jump -a"

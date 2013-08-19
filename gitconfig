@@ -1,12 +1,12 @@
 [user]
-    name = Bartosz Burclaf
-    email = burclaf@gmail.com
+    name = Ilona Stutz
+    email = ilona.stutz@gmail.com
 [color]
     ui = true
 [alias]
     st = status
     co = checkout
-    ci = commit
+    cm = commit
     br = branch
     fe = fetch
     unstage = reset HEAD --
